@@ -1,0 +1,103 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #EF7411;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+header h1{
+    color: #FFFBEB;
+    margin: 0;
+    padding: 15px 0 10px 0
+}
+
+header h5{
+    color: #FFFBEB;
+    margin: 0;
+    padding: 0 0 35px 0
+}
+
+main{
+    background-color: #FFFBEB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h3{
+    color: #92400E;
+}
+
+.box-receita{
+    background-color: #FFFFFF;
+    width: 370px;
+    height: 270px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-receita img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box-receita h1{
+    color: #92400E;
+    margin: 0;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.box-receita h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.infos-box-receita{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infos-box-receita h4{
+    padding: 0;
+}
+
+.infos-box-receita i{
+    padding: 0 5px 0 0;
+}
+
+.infos-box-receita img{
+    width: 15px;
+    height: 15px;
+    padding: 0 5px 0 0;
+}
+
+footer{
+    background-color: #92400E;
+}
+
+footer h3{
+    color: #FFFBEB;
+}
+
+footer h5, h6{
+    color: #E0B44F ;
+}
